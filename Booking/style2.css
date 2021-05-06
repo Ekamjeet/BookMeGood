@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.main {
+  position: fixed;
+    height: 70px;
+    width: 100%;
+    background: rgba(0, 0, 0);
+  }
+  
+  ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+  }
+  
+  ul li a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  ul li.active a {
+    background-color: #fff;
+    color: #000;
+  }
+.contact-section{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    padding: 100px 300px;
+   min-height: 72vh;
+    /* width: 70%; */
+
+}  
+.contact-section h1{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 45px;
+    font-size: 2.5rem;
+}
+.border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+} 
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgba(17, 17, 17, 0.5);
+    padding: 20px 40px;
+    font-size: 1rem;
+    outline: none;
+    color: #fff;
+    transition: 0.5s;
+} 
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+    color: #fff;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 12opx;
+}
+.contact-form-btn{
+    text-decoration: none;
+    float: right;
+    margin-right: 240px;
+    border: 0;
+    background: #243c53;
+    color: #fff;
+    padding: 15px 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: bold;
+}  
+.contact-form-btn:hover{
+    background: #2980b9;
+    transform: translateY(-4px);
+}   

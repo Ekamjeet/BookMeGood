@@ -1,0 +1,85 @@
+body
+{
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+}
+
+.services
+{
+    margin: 90px auto;
+    text-align: center;
+
+}
+
+h1
+{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+h1::after
+{
+ content: '';
+ background: whitesmoke;
+ display: block;
+ width: 150px;
+ height: 3px ;
+ margin: 10px auto;
+
+}
+
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 40px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 20%;
+}
+
+.col-md-3:hover{
+    box-shadow: 5px 6px 7px -3px rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+
+
+h3{
+    font-weight: 500;
+}
+
+p{
+    font-weight: 300;
+}

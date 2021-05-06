@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e0fbfc;
+  font-family: 'Lato', sans-serif;
+}
+
+.main {
+  height: 70px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.363);
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  font-size: 1.3rem;
+  float: left;
+  width: 50%;
+  padding: 100px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+.column-content {
+  padding: 150px;
+}
+
+.column-content-h1 {
+  padding-bottom: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.column-content p {
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  min-height: 30vh;
+  content: "";
+  display: table;
+  clear: both;
+}
+/*# sourceMappingURL=location.css.map */

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+    <meta character="utf-8">
+    <title>Booking Now</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <div class="main">
+            <ul>
+                <li><a href="../mainpg.html">Home</a></li>
+                <li><a href="../Services/service.html">Services</a></li>
+                <li><a href="../Gallery/album.html">Gallery</a></li>
+                <li class="active"><a>Bookings</a></li>
+                <li><a href="../Location/location1.html">Location</a></li>
+            </ul>
+        </div>
+      
+        <div class="contact-section">
+
+            <h1>Bookings</h1>
+            <!-- <div class="border"></div> -->
+            <form class="contact-form" action="booking.html" method="post">
+            <input type="text" class="contact-form-text" placeholder="Your name" required>
+            <input type="email" class="contact-form-text" placeholder="Your email" required>
+            <input type="text" class="contact-form-text" placeholder="Your phone" required>
+            <!-- <textarea class="contact-form-text" placeholder="Your message"></textarea> -->
+            <input type="date" class="contact-form-text">
+            <!-- <input type="button" class="contact-form-btn" value="Book Now" onclick="myfunction()" src="Payment/payment.html"> -->
+                <a href="../Payment/payment.html" class="contact-form-btn" onclick="myfunction()">Book Now</a>
+            </form>
+        </div>
+
+        <!-- JAVASCRIPT -->
+         <script>
+            function myfunction()
+            { 
+                    alert("Your booking is confrirmed!!");
+            };
+        </script>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background-color: lightskyblue;
+}
+
+h1{
+    text-align: center;
+    color: forestgreen;
+    margin: 30px 10 50px;
+}
+
+.gallery{
+    margin: 40px 40px;
+}
+
+.gallery img{
+    width: 10px;
+    padding: 50px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.gallery img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.image{
+    size: 70px;
+    height: 20px;
+    width: 20px;
+}
+
+.gallery a{
+    height: 200px;
+    width: 120px;
+}
