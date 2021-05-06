@@ -72,10 +72,14 @@ ul li.active a {
 }
 
 /* Clear floats after the columns */
+
+
 .row:after {
   min-height: 30vh;
   content: "";
   display: table;
   clear: both;
 }
+
+
 /*# sourceMappingURL=location.css.map */
